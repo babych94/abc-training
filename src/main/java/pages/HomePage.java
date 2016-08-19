@@ -20,7 +20,7 @@ public class HomePage extends PageAbstract {
 
     public boolean CheckHomePage(){
 
-        return  driver.getCurrentUrl().equals("http://ui-test2.fastlaneams.com/#/");
+        return  driver.getCurrentUrl().equals("http://ui-ng-test.fastlaneams.com/#/");
     }
 
 

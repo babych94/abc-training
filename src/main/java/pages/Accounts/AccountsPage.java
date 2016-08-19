@@ -28,7 +28,7 @@ public class AccountsPage extends PageAbstract{
 
     @Step
     public void OpenCreateAccount(){
-        driver.navigate().to("http://ui-test2.fastlaneams.com/#/accounts");
+        driver.navigate().to("http://ui-ng-test.fastlaneams.com/#/accounts");
        // driver.findElement(By.xpath(".//div[3]/div/div[3]/div[1]/div[1]/a")).click();
         refreshElements();
         addBtn.click();

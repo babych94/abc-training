@@ -22,7 +22,7 @@ public abstract class PageAbstract {
     public void type (WebElement element, String text){
         element.click();
         element.clear();
-       // driver.executeScript("arguments[0].setAttribute('value', '" + longstring +"')", inputField);
+        element.sendKeys(text);
 
 
         element.click();

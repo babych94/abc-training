@@ -60,7 +60,7 @@ public class SignInPage extends PageAbstract {
     public void openHome(){
         ClickSignIn();
         System.out.println(driver.getCurrentUrl());
-        Assert.assertTrue(driver.getCurrentUrl().equals("http://ui-test2.fastlaneams.com/#/"));
+        Assert.assertTrue(driver.getCurrentUrl().equals("http://ui-ng-test.fastlaneams.com/#/"));
     }
 
 }
